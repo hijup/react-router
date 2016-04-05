@@ -126,7 +126,7 @@ const Link = React.createClass({
       }
     }
 
-    return <a {...props} onClick={this.handleClick} />
+    return <a {...props} onTouchStart={this.handleClick} onClick={this.handleClick} />
   }
 
 })
